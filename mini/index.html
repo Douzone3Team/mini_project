@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더존비즈온 클론코딩</title>
+   
+    <!-- css 초기화 -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    
+    <!-- jquery  적용-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- main js 적용 -->
+    <script defer src="main.js"></script>
+    
+    <!-- main css 적용  -->
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- header,footer,l-sidebar,r-sidebar css 적용 -->
+    <link rel="stylesheet" href="/mini/common/common.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="first">
+            <div class="inner">
+                <a class="logo" href="/mini/index.html"><img src="/mini/common/img/logo01.png" alt="douzone header logo"></a>
+                <ul class="loginmenu">
+                    <li><a href="/mini/index.html">HOME</a></li>
+                    <li><a href="/mini/HSR/page2.html">LOGIN</a></li>
+                    <li>회원가입</li>
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <div class="inner">
+                <ul class="nav_menu">
+                    <li><a href="/mini/SBJ/page1.html">기업소개/위치</a></li>
+                    <li><a href="/mini/LJE/history.html">기업연혁/회계프로그램</a></li>
+                    <li><a href="/mini/HSR/page1.html">온라인/고객센터</a></li>
+                    <li><a href="/mini/UCR/page1.html">채용절차/방법</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+    
+    <div class="inner">
+      <div class="card-wrap_">
+        <div class="card">
+          <div class="card-side card-side--image" style="width: max-content;">
+            <img class="card-image" src="/mini/common/img/ic_idea_01.png" />
+          </div>
+          <div class="card-side card-side--body"> 
+            <div class="title" id="1"><h6 class="card-title">기&nbsp;업<br><br>소&nbsp;개</h6></div>
+            <p style="text-align: center;">  
+              </p> 
+              <div class="hover_view" id="hover_view1">
+                <p class="card-text">기업을 위한 <br> 다양한 ICT Solution과 Service를 <br>제공하는 <br>대한민국 대표 ICT <br>기업 더존</p>
+            </div>
+            <button class="card-action btn_hover" type="button" onclick="location.href='../mini/SBJ/page1.html' ">Show Detail</button>
+          </div>
+        </div>
+        <div class="card card--right">
+          <div class="card-side card-side--image" style="width: max-content;">
+            <img class="card-image" src="/mini/common/img/ic_idea_02.png" />
+          </div>
+
+          <div class="card-side card-side--body">
+            <div class="title" id="2"><h6 class="card-title">사&nbsp;업<br><br>영&nbsp;역</h6></div> 
+            <div class="hover_view" id="hover_view2">
+
+              <p class="card-text">더존 Smart A <br><br> 상상하지 못한<br>인공지능<br>회계프로그램의<br>능력</p>
+
+            </div> 
+            <button class="card-action btn_hover" type="button" onclick="location.href='../mini/LJE/business.html' ">Show Detail</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-side card-side--image" style="width: max-content;">
+            <img class="card-image" src="/mini/common/img/ic_idea_03.png" />
+          </div>
+
+          <div class="card-side card-side--body">
+            <div class="title" id="3"><h6 class="card-title">고&nbsp;객<br><br>지&nbsp;원</h6></div> 
+            <div class="hover_view" id="hover_view3">
+
+              <p class="card-text">더존비즈온<br>고객센터<br>입니다.</p>
+
+            </div>
+            <button class="card-action btn_hover" type="button" onclick="location.href='../mini/HSR/page1.html' ">Show Detail</button>
+          </div>
+        </div>
+        <div class="card card--right">
+          <div class="card-side card-side--image" style="width: max-content;">
+            <img class="card-image" src="/mini/common/img/ic_idea_04.png" />
+          </div>
+          <div class="card-side card-side--body">
+            <div class="title" id="4"><h4 class="card-title">채<br><br>용</h4></div> 
+            <div class="hover_view" id="hover_view4">
+
+              <p class="card-text">더존은 <br>창조적이고, <br> 도전적이며, <br> 변화를 <br>두려워하지 <br> 않는 인재를 <br>찾고 있습니다.</p>
+
+            </div> 
+            <button class="card-action btn_hover" type="button" onclick="location.href='../mini/UCR/page1.html' ">Show Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="inner">
+        <p><img src="/mini/common/img/footer_logo.png" alt="douzone footer logo"></p>
+        <div>
+            <div class="footer_top">
+                <ul class="footer_menu">
+                    <li><a href="">고객서비스현장</a></li>
+                    <li><a href="">고객의소리</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="footer_mid"> 
+                <address>
+                    (주)더존비즈온&nbsp;&nbsp;&nbsp;대표: 김용우&nbsp;&nbsp;&nbsp;TEL: 02.6233.3000&nbsp;&nbsp;&nbsp;FAX: 02.6233.3030&nbsp;&nbsp;&nbsp;<span style="color:#3E93CC;">고객센터 : 1688-6000&nbsp;&nbsp;&nbsp;블루멤버십 : 1688-8090&nbsp;&nbsp;&nbsp;구입상담문의 : 1688-5000</span><br>
+                    사업자등록번호:134-81-08473&nbsp;&nbsp;&nbsp;통신판매신고번호: 제2011-강원춘천-0039호 <br>
+                    더존을지타워: 서울특별시 중구 을지로1가 87 (도로명: 중구 을지로 29)  <br>
+                    더존강촌캠퍼스: 강원도 춘천시 남산면 수동리 749 (도로명: 춘천시 남산면 버들1길 130)
+                </address>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>

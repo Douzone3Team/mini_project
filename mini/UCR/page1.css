@@ -1,0 +1,109 @@
+html {
+	position: relative;
+	min-height: 100%;
+	margin: 0%;
+  }
+  body {
+	font-family: sansKR, "Noto Sans KR", sans-serif;
+	min-height: 100%;
+  }
+  main .text{
+	  padding-top: 40px;
+	  text-align: center;
+	  position: relative;
+  }
+  main .text p{
+	  font-size: 20px;
+	  font-weight: bold; 
+  }
+  main .table{
+	  display: flex;
+	  padding-left: 50px;
+  }
+  main .table .main_table{
+	  /* padding-left: 50PX; */
+	  margin-right:auto;
+	  margin-left:auto;
+	  border: none;
+  
+  }
+  
+  main .table .main_table td{
+	  border: 1px solid #ccc;
+	  border-left: none;
+  }
+  main .table .main_table .name{
+		text-align: center;
+		padding-top: 30px;
+		margin-top:  auto;
+		height:80px;
+		width: 130px;
+		border: none;
+		color: white;
+  }
+  main .table .main_table .num{
+	  text-align:center;
+	  border-right: none;
+	  width: 50px;
+	  height: 50px;
+  }
+  main .table .main_table .exp{
+	  border-left: none;
+	  margin: 0 auto;
+	  
+  }
+  
+  main .badge .badge_table{
+	  margin:0 auto;
+	  padding:0 auto;
+	  position: fixed;
+	  float: right;
+	  top: 132px;
+	  right: 15px;
+	  font-size: 12px;
+	  box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+	  border: 1px solid #ccc;
+	  cursor: pointer;
+  }
+  main .badge .badge_table tr{
+	  text-align: center; 
+	  
+  }
+  main .badge .badge_table .badge_1{
+	text-align: center;
+	color: white;
+	height: 30px;
+	padding-top: 12px;
+}
+main .badge .badge_table .badge_2{
+	color: black;
+	height: 30px;
+	padding-top: 12px;
+}
+
+  main .badge .badge_table .badge_2 span{
+	  color: red;
+  }
+  main .badge .badge_table td{
+	  width: 80px; 
+	  height: 80px;
+	  padding-top: 20px;
+	  border-top: none;
+	  border-right:none;
+	  border-bottom: 1px solid  #ccc;
+  }
+  main .badge .badge_table .badge_6{
+	  border-top: 1px solid  #ccc;
+  }
+ 
+  main .badge .badge_table .badge_5{
+	  border-bottom: none;
+  }
+  
+  main .badge_table .material-icons{
+	  color: #81BEF7;
+  }
+  
+  
+  
+  

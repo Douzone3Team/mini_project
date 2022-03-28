@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+body {
+  font-family: sansKR, "Noto Sans KR", sans-serif;
+}
+/*  */
+.logo img {
+  position: absolute;
+  margin-left: auto;
+}
+header {
+  border-bottom: 1px solid black;
+  min-width: 1100px;
+}
+
+ /* nav {
+  color: #fff;
+  background-color: #ee6e73;
+  width: 100%;
+  height: auto;
+  line-height: auto;
+}  */
+
+header nav .first {
+  height: 50px;
+  background-color: white;
+}
+
+header nav .second {
+  height: 43px;
+  background-color: #30a6e6;
+}
+
+header nav .first .inner {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+header nav .first .inner ul.loginmenu {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+header nav .first .inner ul.loginmenu li {
+  padding: 0 5px;
+  border-right: 1px solid black;
+  font-weight: bold;
+  font-size: 11px;
+  color: #373733;
+}
+header nav .first .inner ul.loginmenu li:last-child {
+  border: none;
+}
+header nav .first .inner ul.loginmenu li a {
+  text-decoration: none;
+  color: #373733;
+}
+main .inner {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .second .inner {
+  width: 1100px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+header nav .second .inner .nav_menu {
+  display: flex;
+}
+header nav .second .inner .nav_menu li {
+  display: flex;
+  width: 191px;
+  height: 43px;
+  align-items: center;
+}
+header nav .second .inner .nav_menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+header nav .second .inner .nav_menu li a:hover {
+  opacity: 0.7;
+}
+
+main .inner .l-sidebar {
+  width: 240px;
+}
+
+main .inner .l-sidebar .left_menu h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-bottom: 8px;
+}
+main .inner .l-sidebar .left_menu .menu_ul {
+  border-top: 2px solid #009bdf;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  align-items: center;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li:hover {
+  background-color: #009bdf;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li:hover a {
+  color: #ffffff;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li > a {
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  padding-left: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+}
+
+main .inner .card_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 50px;
+  margin: 0 auto; 
+}
+
+main .inner .card_wrap .card {
+  display: block;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #8e8e8e;
+
+  margin: 25px;
+}
+
+main .inner .card_wrap .card:hover {
+}
+main .inner .card_wrap .card img {
+  width: 300px;
+  height: 200px;
+}
+
+main .inner .card_wrap .card .card_title {
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  border-top: 0.5px solid #e5e5e5;
+}
+
+footer .inner {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+footer .inner p {
+  margin-top: 16px;
+  margin-right: 20px;
+}
+footer .footer_top .footer_menu {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+footer .footer_top .footer_menu li {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #8e8e8e;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+footer .footer_top .footer_menu li:last-child {
+  border-right: none;
+}
+footer .footer_top .footer_menu li:last-child a {
+  color: #009bdf;
+}
+footer .footer_top .footer_menu li a {
+  text-decoration: none;
+
+  font-size: 11px;
+  color: #8e8e8e;
+}
+footer .footer_mid address {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 11px;
+  color: #8e8e8e;
+  line-height: 20px;
+}
+
+main .badge .badge_table{
+  margin:0 auto;
+  padding:0 auto;
+  position: fixed;
+  float: right;
+  top: 132px;
+  right: 15px;
+  font-size: 12px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+main .badge .badge_table tr{
+  text-align: center; 
+  
+}
+main .badge .badge_table .badge_1{
+text-align: center;
+color: white;
+height: 30px;
+padding-top: 12px;
+}
+main .badge .badge_table .badge_2{
+color: black;
+height: 30px;
+padding-top: 12px;
+}
+
+main .badge .badge_table .badge_2 span{
+  color: red;
+}
+main .badge .badge_table td{
+  width: 80px; 
+  height: 80px;
+  padding-top: 20px;
+  border-top: none;
+  border-right:none;
+  border-bottom: 1px solid  #ccc;
+}
+main .badge .badge_table .badge_6{
+  border-top: 1px solid  #ccc;
+}
+
+main .badge .badge_table .badge_5{
+  border-bottom: none;
+}
+
+main .badge_table .material-icons{
+  color: #81BEF7;
+}
+

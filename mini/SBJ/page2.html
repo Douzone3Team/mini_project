@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css 초기화 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <title> 더존소개 - 강촌캠퍼스 소개 </title>
+
+
+    <!-- Jquery 적용 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- SBJ css 적용 -->
+    <link rel="stylesheet" href="SBJ.css">
+
+    <!-- SBJ js -->
+    <script defer src="index.js"></script>
+
+    <!-- header,footer,l-sidebar,r-sidebar css 적용 -->
+    <link rel="stylesheet" href="/mini/common/common.css">
+    <!-- SBJ css 적용 -->
+    <link rel="stylesheet" href="SBJ.css">
+    <!-- w3schools css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- check_login js 적용 -->
+    <script defer src="/mini/HSR/check_login.js" type="text/javascript"></script>
+
+    <!-- top js -->
+    <script defer src="../UCR/page1.js"></script>
+
+    <!--GSAP & ScrollToPlugin-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"
+        integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="first">
+                <div class="inner">
+                    <a class="logo" href="/mini/index.html"><img src="/mini/common/img/logo01.png"
+                            alt="douzone header logo"></a>
+                    <ul class="loginmenu">
+                        <li><a href="/mini/index.html">HOME</a></li>
+                        <li><a href="/mini/HSR/page2.html">LOGIN</a></li>
+                        <li>회원가입</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="second">
+                <div class="inner">
+                    <ul class="nav_menu">
+                        <li><a href="/mini/SBJ/page1.html">기업소개/위치</a></li>
+                        <li><a href="/mini/LJE/history.html">기업연혁/회계프로그램</a></li>
+                        <li><a href="/mini/HSR/page1.html">온라인/고객센터</a></li>
+                        <li><a href="/mini/UCR/page1.html">채용절차/방법</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="inner">
+            <div class="l-sidebar">
+                <div class="left_menu">
+                    <h2>Douzone</h2>
+                    <ul class="menu_ul">
+                        <li><a href="/mini/SBJ/page1.html"><span>기업 개요</span></a></li>
+                        <li><a href="/mini/SBJ/page2.html"><span>강촌캠퍼스 소개</span></a></li>
+                        <li><a href="/mini/LJE/history.html"><span>기업 연혁</span></a></li>
+                        <li><a href="/mini/LJE/business.html"><span>사업 영역 &gt; 회계프로그램</span></a></li>
+                        <li><a href="/mini/HSR/page1.html"><span>고객센터</span></a></li>
+                        <li><a href="/mini/HSR/page2.html"><span>로그인</span></a></li>
+                        <li><a href="/mini/UCR/page1.html"><span>채용공고</span></a></li>
+                        <li><a href="/mini/UCR/page2.html"><span>채용방법 및 절차</span></a></li>
+                        <li><a href="https://help.douzone.com/remote/remote.jsp"><span>원격지원</span></a></li>
+                        <li><a href="https://help.douzone.com/board/index.jsp?code=notice"><span>고객지원 안내</span></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="badge">
+                <table class="badge_table">
+                    <tr class="badge_tr">
+                        <td class="badge_1" bgcolor="5882FA">Quick Menu</td>
+                    </tr>
+                    <tr class="badge_tr">
+                        <td class="badge_2" bgcolor="#CEECF5">구매상담문의<br>
+                            <span>1688-5000</span>
+                        </td>
+                    </tr>
+                    <tr class="badge_tr">
+                        <td class="badge_3">
+                            <div class="material-icons">inventory</div>
+                            <br />구매상담 <br />신청하기
+                        </td>
+                    </tr>
+                    <tr class="badge_tr">
+                        <td class="badge_4">
+                            <div class="material-icons">content_paste_search</div>
+                            <br />회사소개<br />다운로드
+                        </td>
+                    </tr>
+                    <tr class="badge_tr">
+                        <td class="badge_5">
+                            <div class="material-icons">place</div> <br />더존
+                            전국 <br />IT코디센터
+                        </td>
+                    </tr>
+                    <tr class="to-top">
+                        <td class="badge_6">
+                            <div class="material-icons">arrow_upward</div><br />TOP
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="main-title">
+                    <h3>
+                        <span>강촌캠퍼스 소개</span>
+                    </h3>
+                </div>
+                <hr>
+                <!-- <div class="txt-image-box">
+                    
+                </div> -->
+
+                <div class="w3-container w3-content w3-row w3-padding-64" id="about">
+                    <div class="w3-col m6 w3-padding-large">
+                        <img src="images/html2_01.PNG" class="w3-round w3-image w3-opacity-min" alt="강촌캠퍼스사진"
+                            width="100%" height="100%">
+                    </div>
+
+                    <div class="w3-col m6 w3-padding-large">
+                        <h1 class="w3-h1 w3-center">더존ICT그룹 강촌캠퍼스</h1><br>
+                        <p class="w3-large">더존ICT그룹 강촌캠퍼스는 클라우드
+                            데이터센터를 비롯해 R&D센터, 국가 지정
+                            공인전자문서센터 등 최신 기술 개발과
+                            트렌드 연구를 위한 최첨단 ICT인프라가
+                            모여 있습니다.
+                            <br /><br />
+                            이 곳에서임직원들은 맛있게 먹고, 즐겁게
+                            놀고, 건강하게 운동하면서 자유로운
+                            커뮤니케이션으로 창의적인 아이디어를
+                            발산하고, 일과 삶이 공존하는 안정적이고
+                            행복한 직장생활을 이어가고 있습니다.
+                            <br /><br />
+                            최첨단 ICT인프라와 쾌적한 업무환경 그리고
+                            국내 최고 수준의 복리후생 시설이 집적된
+                            더존ICT그룹 강촌캠퍼스는 대한민국
+                            ICT산업의 미래이자 희망입니다.</p>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="w3-content w3-container w3-center ">
+                    <h1 class="w3-h1" style="text-shadow:1px 1px 0 #444">위치</h1>
+                    <hr style="border-color:hsl(273, 46%, 64%)">
+                </div>
+
+                <div class="w3-container w3-content w3-row w3-padding-32">
+                    <div class="w3-col m6 w3-center ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.6173814162064!2d127.63580720872194!3d37.757221262746995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3563202fe84535ef%3A0xd5443e85077c36be!2z44ic642U7KG067mE7KaI7Jio!5e0!3m2!1sko!2skr!4v1647584846713!5m2!1sko!2skr"
+                            width="400px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="w3-col m6 ">
+                        <h5 style="font-weight: bold; font-size: 25px;">
+                            <em>1</em>&nbsp;&nbsp;&nbsp; 자가용 이용시
+                        </h5>
+                        <p style="font-size: 14px;">서울 춘천고속도로 ▶ 강촌IC 팔봉산,광판리 방면 ▶ 약 800m 직진 ▶ 버들길 방향으로 좌회전 버들교 ▶ 약 2Km
+                            직진 ▶ 더존ICT그룹 강촌캠퍼스</p>
+                        <br />
+                        <hr>
+                        <h5 style="font-weight: bold; font-size: 25px;">
+                            <em>2</em>&nbsp;&nbsp;&nbsp; 셔틀버스 이용시
+                        </h5>
+                        <p style="font-size: 14px;">더존을지타워(월~금 13시 30분 출발)▶ 더존 강촌캠퍼스(15시 도착)셔틀버스 운행</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+    </main>
+    <footer>
+        <div class="inner">
+            <p><img src="/mini/common/img/footer_logo.png" alt="douzone footer logo"></p>
+            <div>
+                <div class="footer_top">
+                    <ul class="footer_menu">
+                        <li><a href="">고객서비스현장</a></li>
+                        <li><a href="">고객의소리</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+                <div class="footer_mid">
+                    <address>
+                        (주)더존비즈온&nbsp;&nbsp;&nbsp;대표: 김용우&nbsp;&nbsp;&nbsp;TEL: 02.6233.3000&nbsp;&nbsp;&nbsp;FAX:
+                        02.6233.3030&nbsp;&nbsp;&nbsp;<span style="color:#3E93CC;">고객센터 :
+                            1688-6000&nbsp;&nbsp;&nbsp;블루멤버십 : 1688-8090&nbsp;&nbsp;&nbsp;구입상담문의 : 1688-5000</span><br>
+                        사업자등록번호:134-81-08473&nbsp;&nbsp;&nbsp;통신판매신고번호: 제2011-강원춘천-0039호 <br>
+                        더존을지타워: 서울특별시 중구 을지로1가 87 (도로명: 중구 을지로 29) <br>
+                        더존강촌캠퍼스: 강원도 춘천시 남산면 수동리 749 (도로명: 춘천시 남산면 버들1길 130)
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

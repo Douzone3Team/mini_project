@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>더존 - 채용공고</title>
+
+	<!-- css 초기화 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	<!-- UCR css 적용 -->
+	<link rel="stylesheet" href="page2.css">
+
+	<!-- header,footer,l-sidebar,r-sidebar css 적용 -->
+	<link rel="stylesheet" href="/mini/common/common.css">
+
+	<!-- Jquery 적용 -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<!-- check_login js 적용 -->
+	<script defer src="/mini/HSR/check_login.js" type="text/javascript"></script>
+
+	<!-- top js -->
+	<script defer src="../UCR/page1.js"></script>
+
+	<!--GSAP & ScrollToPlugin-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+		integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"
+		integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q=="
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="first">
+				<div class="inner">
+					<a class="logo" href="/mini/index.html"><img src="/mini/common/img/logo01.png"
+							alt="douzone header logo"></a>
+					<ul class="loginmenu">
+						<li><a href="/mini/index.html">HOME</a></li>
+						<li><a href="/mini/HSR/page2.html">LOGIN</a></li>
+						<li>회원가입</li>
+					</ul>
+				</div>
+			</div>
+			<div class="second">
+				<div class="inner">
+					<ul class="nav_menu">
+						<li><a href="/mini/SBJ/page1.html">기업소개/위치</a></li>
+						<li><a href="/mini/LJE/history.html">기업연혁/회계프로그램</a></li>
+						<li><a href="/mini/HSR/page1.html">온라인/고객센터</a></li>
+						<li><a href="/mini/UCR/page1.html">채용절차/방법</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="inner">
+			<div class="l-sidebar">
+				<div class="left_menu">
+					<h2>Douzone</h2>
+					<ul class="menu_ul">
+						<li><a href="/mini/SBJ/page1.html"><span>기업 개요</span></a></li>
+						<li><a href="/mini/SBJ/page2.html"><span>강촌캠퍼스 소개</span></a></li>
+						<li><a href="/mini/LJE/history.html"><span>기업 연혁</span></a></li>
+						<li><a href="/mini/LJE/business.html"><span>사업 영역 &gt; 회계프로그램</span></a></li>
+						<li><a href="/mini/HSR/page1.html"><span>고객센터</span></a></li>
+						<li><a href="/mini/HSR/page2.html"><span>로그인</span></a></li>
+						<li><a href="/mini/UCR/page1.html"><span>채용공고</span></a></li>
+						<li><a href="/mini/UCR/page2.html"><span>채용방법 및 절차</span></a></li>
+						<li><a href="https://help.douzone.com/remote/remote.jsp"><span>원격지원</span></a></li>
+						<li><a href="https://help.douzone.com/board/index.jsp?code=notice"><span>고객지원 안내</span></a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="badge">
+				<table class="badge_table">
+					<tr class="badge_tr">
+						<td class="badge_1" bgcolor="5882FA">Quick Menu</td>
+					</tr>
+					<tr class="badge_tr">
+						<td class="badge_2" bgcolor="#CEECF5">구매상담문의<br>
+							<span>1688-5000</span>
+						</td>
+					</tr>
+					<tr class="badge_tr">
+						<td class="badge_3">
+							<div class="material-icons">inventory</div>
+							<br />구매상담 <br />신청하기
+						</td>
+					</tr>
+					<tr class="badge_tr">
+						<td class="badge_4">
+							<div class="material-icons">content_paste_search</div>
+							<br />회사소개<br />다운로드
+						</td>
+					</tr>
+					<tr class="badge_tr">
+						<td class="badge_5">
+							<div class="material-icons">place</div> <br />더존
+							전국 <br />IT코디센터
+						</td>
+					</tr>
+					<tr class="to-top">
+						<td class="badge_6">
+							<div class="material-icons">arrow_upward</div><br />TOP
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div> <br />
+				<p class="maintext">채용공고</p>
+				<hr style="width: 100%; background-color: black">
+
+				<div class="mainimg"> <img alt="메인채용정보" src="images/recruit_copy.png"></div>
+
+				<div class="box">
+					<div class="minibox">
+						<div class="receipt">
+							<br />
+							<h3>접수방법</h3>
+							<hr style="width: 100%; background-color: black">
+							<p>더존 ICT그룹의 채용은 아래 채용 포털 서비스를 통해 진행하고 있습니다.</p>
+							<br />
+
+							<div class="saramin">
+								<a
+									href="https://www.saramin.co.kr/zf_user/company-info/view?csn=bmJNSnpSYmdjUCs3bGoyQ1ZSNUZYdz09">
+									<img alt="saramin" src="images/saramin.png">
+								</a>
+							</div>
+							<div class="jobkorea">
+								<a href="https://www.jobkorea.co.kr/Company/1561548/?C_IDX=1552">
+									<img alt="jobkorea" src="images/jobkorea.png">
+								</a>
+							</div>
+							<div class="incruit">
+								<a href="https://www.incruit.com/company/972767">
+									<img alt="incruit" src="images/incruit.png">
+								</a>
+							</div>
+						</div>
+						<div class="inquiries">
+							<h3>문의처</h3>
+							<hr>
+							<div class="team">더존ICT그룹 인재 채용팀</div>
+							<div class="email"><span>E-mail</span><br /> changhyewon@douzone.com</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="inner">
+			<p><img src="/mini/common/img/footer_logo.png" alt="douzone footer logo"></p>
+			<div>
+				<div class="footer_top">
+					<ul class="footer_menu">
+						<li><a href="">고객서비스현장</a></li>
+						<li><a href="">고객의소리</a></li>
+						<li><a href="">이용약관</a></li>
+						<li><a href="">개인정보처리방침</a></li>
+					</ul>
+				</div>
+				<div class="footer_mid">
+					<address>
+						(주)더존비즈온&nbsp;&nbsp;&nbsp;대표: 김용우&nbsp;&nbsp;&nbsp;TEL: 02.6233.3000&nbsp;&nbsp;&nbsp;FAX:
+						02.6233.3030&nbsp;&nbsp;&nbsp;<span style="color:#3E93CC;">고객센터 :
+							1688-6000&nbsp;&nbsp;&nbsp;블루멤버십 : 1688-8090&nbsp;&nbsp;&nbsp;구입상담문의 : 1688-5000</span><br>
+						사업자등록번호:134-81-08473&nbsp;&nbsp;&nbsp;통신판매신고번호: 제2011-강원춘천-0039호 <br>
+						더존을지타워: 서울특별시 중구 을지로1가 87 (도로명: 중구 을지로 29) <br>
+						더존강촌캠퍼스: 강원도 춘천시 남산면 수동리 749 (도로명: 춘천시 남산면 버들1길 130)
+					</address>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+
+
+</html>

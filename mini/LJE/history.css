@@ -1,0 +1,455 @@
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0%;
+}
+body {
+  font-family: sansKR, "Noto Sans KR", sans-serif;
+  min-height: 100%;
+} 
+.logo img {
+  position: absolute;
+  margin-left: auto;
+} 
+main .inner {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .second .inner {
+  width: 1100px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+header nav .second .inner .nav_menu {
+  display: flex;
+}
+header nav .second .inner .nav_menu li {
+  display: flex;
+  width: 191px;
+  height: 43px;
+  align-items: center;
+}
+header nav .second .inner .nav_menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+header nav .second .inner .nav_menu li a:hover {
+  opacity: 0.7;
+}
+main .r-main {
+  margin-top: 70px;
+}
+main .inner .l-sidebar {
+  width: 240px;
+}
+main .inner .r-main {
+  width: 820px;
+}
+main .inner .r-main .slide_box {
+  overflow: hidden;
+}
+
+main .inner .r-main .slide_box .slides {
+  padding: 0;
+  width: 820px;
+  height: 230px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .inner .r-main .slide_box .slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+main .inner .r-main .slide_box .slides input {
+  display: none;
+}
+
+main .inner .r-main .slide_box .slide-container {
+  display: block;
+}
+
+main .inner .r-main .slide_box .slide {
+  top: 0;
+  opacity: 0;
+  width: 820px;
+  height: 230px;
+  display: block;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.7s ease-in-out;
+}
+
+main .inner .r-main .slide_box .slide a img {
+  width: 100%;
+  height: 100%;
+}
+
+main .inner .r-main .slide_box .nav label {
+  width: 200px;
+  height: 100%;
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+
+  transition: opacity 0.2s;
+
+  color: #fff;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+main .inner .r-main .slide_box .slide:hover + .nav label {
+  opacity: 0.5;
+}
+
+main .inner .r-main .slide_box .nav label:hover {
+  opacity: 1;
+}
+
+main .inner .r-main .slide_box .nav .next {
+  right: 0;
+}
+
+main .inner .r-main .slide_box input:checked + .slide-container .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity 1s ease-in-out;
+}
+
+main .inner .r-main .slide_box input:checked + .slide-container .nav label {
+  display: block;
+}
+
+main .inner .r-main .slide_box .nav-dots {
+  width: 100%;
+  bottom: 9px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+main .inner .r-main .slide_box .nav-dots .nav-dot {
+  top: -5px;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+main .inner .r-main .slide_box .nav-dots .nav-dot:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#img-1:checked ~ #img-dot-1,
+#img-2:checked ~ #img-dot-2,
+#img-3:checked ~ #img-dot-3,
+#img-4:checked ~ #img-dot-4 {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+main .inner .r-main .mid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+main .inner .r-main .mid .content_box {
+  width: 800px; 
+  background-color: lightblue;
+  padding: 16px 20px 20px 20px;
+}
+
+main .inner .r-main .mid .content_box .text {
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 6px;
+}
+main .inner .r-main .mid .content_box strong {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+main .inner .r-main .mid .content_box dl {
+  display: flex;
+  align-items: center;
+}
+main .inner .r-main .mid .content_box dl dt {
+  color: #99d1f2;
+  font-size: 12px;
+  font-weight: bold;
+}
+main .inner .r-main .mid .content_box dl dd span a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+main .inner .r-main .mid .content_box form {
+  display: flex;
+}
+main .inner .r-main .mid .content_box form ul {
+  display: flex;
+  width: 121px;
+  height: 34px;
+  align-items: center;
+  background-color: white;
+  margin-right: 3px;
+}
+main .inner .r-main .mid .content_box form ul li {
+  padding-left: 10px;
+}
+main .inner .r-main .mid .search form .input_box #inp {
+  font-family: inherit;
+}
+main .inner .r-main .mid .content_box form .input_box input {
+  width: 326px;
+  height: 34px;
+  border: none;
+  padding: 0px 0px 0px 0px;
+}
+main .inner .r-main .mid .content_box form .search_ico {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  width: 50px;
+  height: 34px;
+}
+main .inner .r-main .mid .content_box form .search_ico .material-icons {
+  margin: 0 auto;
+}
+main .inner .r-main .mid .login_box {
+  width: 266px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #cff1ff;
+}
+
+main .inner .r-main .mid .login_box .login_n {
+  display: block;
+  margin: 0 auto;
+}
+main .inner .r-main .mid .login_box .login_n .login_box_bottom {
+  display: flex;
+  justify-content: center;
+}
+main .inner .r-main .mid .login_box .login_n .login_box_bottom a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 6px;
+  color: #656565;
+}
+main .inner .r-main .mid .login_box .login_n .login_box_top {
+  display: flex;
+  justify-content: center;
+}
+main .inner .r-main .mid .login_box .login_n .login_box_top .login {
+  border: none;
+  margin: 0 6px 0 0;
+  padding: 0;
+  width: 103px;
+  height: 34px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main .inner .r-main .mid .login_box .login_n .login_box_top .sign {
+  border: none;
+  margin: 0 6px 0 0;
+  padding: 0;
+  width: 103px;
+  height: 34px;
+  background-color: #859ba5;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+main .inner .r-main .mid .login_box .login_n .login_box_top > button:hover {
+  cursor: pointer;
+}
+
+main .inner .l-sidebar .left_menu h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 33px;
+  margin-bottom: 8px;
+}
+main .inner .l-sidebar .left_menu .menu_ul {
+  border-top: 2px solid #009bdf;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  align-items: center;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li:hover {
+  background-color: #009bdf;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li:hover a {
+  color: #ffffff;
+}
+main .inner .l-sidebar .left_menu .menu_ul > li > a {
+  color: rgb(55, 55, 55);
+  text-decoration: none;
+  padding-left: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+} 
+
+main .mainWrap {
+  min-width: 1100px;
+  background-image: url("./img/gangchon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .logPage {
+  padding: 165px 90px;
+  margin-bottom: 50px;
+}
+
+main .logPage .inner {
+  width: 1100px;
+}
+
+main .logPage .inner .logPage_box {
+  display: flex;
+  margin-top: 27px;
+}
+main .logPage .inner .logPage_info {
+  width: 352px;
+  height: 488px;
+  border: 1px solid #dedede;
+  padding: 30px 50px 0 35px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+main .logPage .inner .logPage_info h5 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #373737;
+}
+main .logPage .inner .logPage_info form {
+  margin-top: 27px;
+}
+main .logPage .inner .logPage_info form .login_box {
+  display: flex;
+}
+main .logPage .inner .logPage_info form .login_box .login_input #ID {
+  width: 250px;
+  height: 36px;
+  border: 1px solid #b6b6b6;
+  margin: 0 0 5px 0;
+}
+main .logPage .inner .logPage_info form .login_box .login_input #PASS {
+  width: 250px;
+  height: 36px;
+  border: 1px solid #b6b6b6;
+  margin: 0;
+}
+main .logPage .inner .logPage_info form .login_box .btn_box input {
+  width: 87px;
+  height: 81px;
+  border: none;
+
+  background-color: green;
+  color: white;
+}
+.wrap {
+  margin-top: 20px;
+  max-width: 830px;
+}
+.menu {
+  display: table;
+  table-layout: fixed;
+  width: 100%;  
+  margin-left: 40px;
+}
+.menu_item { 
+  font-size: 15px;
+  display: table-cell;
+  table-layout: fixed;
+  width: 100%; 
+} 
+
+
+
+/**********/
+main .text{
+  /* padding-top: 40px; */
+  text-align: center;
+}
+main .text p{
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+main .left .left_ul {
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}  
+
+.wrap {
+  max-width: 800px;
+  min-width: 500px;
+}
+
+.menu {
+  display: table;
+  table-layout: fixed;
+  width: 100%; 
+  margin-left: 30px;
+}
+
+.menu_item {
+  width: 65px;
+  display: table-cell;
+}
+
+.text_box {
+  text-align: left; 
+  max-width: 100px !important; 
+  height: auto;
+  font-size: 14px !important;
+}
+.text_box > pre{  
+  height: 50px;
+  font-size: 14px !important; 
+  word-wrap:break-word;
+}
